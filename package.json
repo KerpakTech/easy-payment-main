@@ -1,0 +1,21 @@
+{
+  "name": "easy-payment",
+  "version": "0.0.1",
+  "description": "Node.js multi-gateway payment processing module",
+  "main": "index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KerpakTech/easy-payment-main"
+  },
+  "keywords": [
+    "easy-payment",
+    "gateway",
+    "payment"
+  ],
+  "author": "KerpakTech",
+  "license": "MIT",
+  "dependencies": {
+    "@easy-payment/base": "git+https://git@github.com/KerpakTech/easy-payment-base.git#main"
+  }
+}
